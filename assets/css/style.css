@@ -63,6 +63,11 @@ body {
   line-height: 20.72px;
   text-transform: uppercase;
   color: var(--colorBlack);
+  transition: color .3s ease;
+}
+
+.header-nav__link:hover {
+  color: #C59A4B;
 }
 
 .header-nav__link:last-of-type {
